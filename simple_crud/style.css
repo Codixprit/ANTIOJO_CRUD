@@ -1,0 +1,200 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(45deg, #1d2b64, #f8cdda);
+    background-size: 400% 400%;
+    animation: gradientBG 10s ease infinite;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+@keyframes gradientBG {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    color: #fff;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-top: 20px;
+}
+
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #000000;
+    padding: 10px 15px;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 10px 0;
+}
+
+a:hover {
+    background-color: #000294;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #000000;
+    color: white;
+    text-transform: uppercase;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #e9e9e9;
+}
+
+.actions a {
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 14px;
+    color: white;
+    margin-right: 5px;
+}
+
+.actions .edit {
+    background-color: #28a745;
+}
+
+.actions .edit:hover {
+    background-color: #218838;
+}
+
+.actions .delete {
+    background-color: #dc3545;
+}
+
+.actions .delete:hover {
+    background-color: #c82333;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.5em;
+    }
+
+    .container {
+        width: 95%;
+    }
+
+    table {
+        font-size: 14px;
+    }
+
+    th, td {
+        padding: 8px 10px;
+    }
+}
+  body {
+       font-family: Arial, sans-serif;
+       background-color: #f4f4f9;
+       margin: 0;
+       padding: 0;
+   }
+
+   h1 {
+       text-align: center;
+       color: #333;
+       margin-top: 30px;
+   }
+
+   .container {
+       width: 90%;
+       max-width: 600px;
+       margin: 0 auto;
+       padding: 20px;
+       background-color: #1d00c0;
+       border-radius: 8px;
+       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   }
+
+   label {
+       font-size: 16px;
+       color: #333;
+   }
+
+   input[type="text"],
+   textarea {
+       width: 100%;
+       padding: 10px;
+       margin: 10px 0;
+       border: 1px solid #ccc;
+       border-radius: 5px;
+       box-sizing: border-box;
+       font-size: 16px;
+   }
+
+   textarea {
+       resize: vertical;
+       min-height: 100px;
+   }
+
+   button {
+       background-color: #007bff;
+       color: white;
+       padding: 12px 20px;
+       border: none;
+       border-radius: 5px;
+       font-size: 16px;
+       cursor: pointer;
+       width: 100%;
+       transition: background-color 0.3s;
+   }
+
+   button:hover {
+       background-color: #0056b3;
+   }
+
+   /* Responsive Design */
+   @media (max-width: 768px) {
+       .container {
+           width: 95%;
+       }
+
+       h1 {
+           font-size: 1.5em;
+       }
+   }
